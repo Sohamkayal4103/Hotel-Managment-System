@@ -15,4 +15,9 @@ public String signup() {
 	return "signup";
 }
 
+@RequestMapping(value= {"/booktable"})
+public String booktable() {
+	return "restaurant";
+	
+}
 }
